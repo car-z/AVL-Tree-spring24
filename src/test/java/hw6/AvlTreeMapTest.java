@@ -54,8 +54,6 @@ public class AvlTreeMapTest extends BinarySearchTreeMapTest {
     assertEquals((String.join("\n", expected) + "\n"), map.toString());
   }
 
-  // TODO Add more tests
-
   @Test
   @DisplayName("Insert one element and tree should rotate right to keep balance.")
   public void insertRightRotation() {

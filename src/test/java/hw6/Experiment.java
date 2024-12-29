@@ -50,8 +50,6 @@ public class Experiment {
         .replace("classes", "resources");
 
     Path resourceDirectory = Paths.get(path, DATA_FILE);
-    // TODO On Windows, use this:
-    // Path resourceDirectory = Paths.get(path.substring(1), DATA_FILE);
     return resourceDirectory;
   }
 

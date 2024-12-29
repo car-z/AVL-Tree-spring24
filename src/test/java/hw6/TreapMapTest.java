@@ -22,9 +22,6 @@ public class TreapMapTest extends BinarySearchTreeMapTest {
     return new TreapMap<>(seed);
   }
 
-  // TODO Add tests
-  //  (think about how you might write tests while randomness is involved in TreapMap implementation!)
-
   //INSERT TESTS
 
   @Test
